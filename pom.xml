@@ -15,4 +15,16 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+<distributionManagement>
+    <repository>
+      <id>gcw-releases</id>
+      <name>gcw-releases</name>
+      <url>http://ip-172-31-27-185.ap-south-1.compute.internal:8081/nexus/content/repositories/gcw-releases/</url>
+    </repository>
+    <snapshotRepository>
+      <id>gcw-snapshots</id>
+      <name>gcw-snapshots</name>
+      <url>http://ip-172-31-27-185.ap-south-1.compute.internal:8081/nexus/content/repositories/gcw-snapshots/</url>
+    </snapshotRepository>
+</distributionManagement>
 </project>
