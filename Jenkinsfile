@@ -1,7 +1,7 @@
 node("maven-label") {
    def mvnHome
    stage('Preparation') { 
-      git branch: 'dev', credentialsId: 'vagrant-git', url: 'git@github.com:devops24th/gcw.git'
+      git branch: '${branch}', credentialsId: 'vagrant-git', url: 'git@github.com:devops24th/gcw.git'
              
       mvnHome = tool 'maven'
    }
